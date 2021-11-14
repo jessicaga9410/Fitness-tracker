@@ -1,1 +1,3 @@
-MongoDB database application for exercise and workout plans 
+## Fitness-tracker
+
+- MongoDB database application for exercise and workout plans 
