@@ -11,9 +11,10 @@ app.use(express.json());
 app.use (express.static('public'));
 
 mongoose.connect('mongodb://localhost/workout', {
-portUseNewUrlParser:true, 
+useNewUrlParser:true, 
 useFindAndModify:false,
 useUnifiedTopology:true,
+useCreateIndex:true,
 });
 
 app.use(controllers);
