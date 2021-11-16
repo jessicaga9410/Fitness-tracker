@@ -14,7 +14,7 @@ router.put('/api/workouts/:id', ({body, params} , res) =>{
     res.sendFile(path.join(__dirname, '../public/api/workouts/:id'));
     
 });
-router.get("/api/workouts", (req, res) => {
+router.get("/api/workouts/range", (req, res) => {
     Workout.aggregate([
       {
         $addFields: {
@@ -35,16 +35,20 @@ router.get("/api/workouts", (req, res) => {
         res.status(400).json(err);
       });
   });
-  router.get("/api/workouts/range", (req, res) => {
-    Workout.find({})
-      .sort({ date: -1 })
-      .then(dbWorkouts => {
-        res.json(dbWorkouts);
-      })
-      .catch(err => {
-        res.status(400).json(err);
-      });
-  });
+  // router.get("/api/workouts/range", (req, res) => {
+  //   Workout.find({})
+  //     .sort({ date: -1 })
+  //     .then(dbWorkouts => {
+  //       res.json(dbWorkouts);
+  //     })
+  //     .catch(err => {
+  //       res.status(400).json(err);
+  //     });
+  // });
   
+  // router.put('/workouts/:id', (req, res) =>{
+  //   res.send(`put workout at id ${req.params.id}`)
+  // })
   
 module.exports=router;
+
