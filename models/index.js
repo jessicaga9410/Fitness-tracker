@@ -1,3 +1,3 @@
 module.exports ={
-    Worjout:require('./workout.js')
+    Workout:require('./workout.js')
 };

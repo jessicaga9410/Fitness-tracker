@@ -2,8 +2,12 @@ const router=require ('express').Router();
 const Workout =require('../models/workout.js');
 
 
-router.post('/workouts', (req, res)=>{
-    res.sendFile(path.join(__dirname, '../public/api/workout.js'));
+router.post('/api/workouts', (req, res)=>{
+   console.log(req.body);
+Workout.create({}).then(response=>{
+  res.json(response)
+})
+
 });
 
 router.put('/api/workouts/:id', ({body, params} , res) =>{
@@ -31,6 +35,16 @@ router.get("/api/workouts", (req, res) => {
         res.status(400).json(err);
       });
   });
-
+  router.get("/api/workouts/range", (req, res) => {
+    Workout.find({})
+      .sort({ date: -1 })
+      .then(dbWorkouts => {
+        res.json(dbWorkouts);
+      })
+      .catch(err => {
+        res.status(400).json(err);
+      });
+  });
+  
   
 module.exports=router;
