@@ -1,10 +1,7 @@
 # Fitness-tracker
 -------
 ![badge](https://img.shields.io/badge/license-MIT-ff69b4)
-</br>
-<p align="center">
-   <a href="https://www.mongodb.com/"><img src="https://img.shields.io/badge/-MongoDB-blue?style=for-the-badge" alt="MongoDB" /></a>
-</p>
+
 ## Table of Contents
 ---------
 - [User story](#user-story)
@@ -14,7 +11,6 @@
 - [Questions](#questions)
 
 ## User Story
-
 * As a user, I want to be able to view create and track daily workouts.
 
 
@@ -37,9 +33,18 @@
 ![badge](https://img.shields.io/badge/license-MIT-ff69b4)
 
 This application is covered by the MIT license. 
+----------------------------------------------------------------
+</br>
+<p align="center">
+   <a href="https://www.mongodb.com/"><img src="https://img.shields.io/badge/-MongoDB-blue?style=for-the-badge" alt="MongoDB" /></a>
+</p>
+- MongoDB database application for exercise and workout plans 
+
+
 ## Questions
 -----
 Please email me for further questions at Jessicaga941@gmail.com
 
 Copyright(c) 2021 Jessica Galarza
+
 
