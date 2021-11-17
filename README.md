@@ -33,12 +33,13 @@
 ![badge](https://img.shields.io/badge/license-MIT-ff69b4)
 
 This application is covered by the MIT license. 
+
 ----------------------------------------------------------------
 </br>
 <p align="center">
    <a href="https://www.mongodb.com/"><img src="https://img.shields.io/badge/-MongoDB-blue?style=for-the-badge" alt="MongoDB" /></a>
 </p>
-- MongoDB database application for exercise and workout plans 
+-Used MongoDB database application for exercise and workout plans 
 
 
 ## Questions
