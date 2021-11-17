@@ -36,10 +36,10 @@ This application is covered by the MIT license.
 
 ----------------------------------------------------------------
 </br>
-<p align="center">
+<p align="left">
    <a href="https://www.mongodb.com/"><img src="https://img.shields.io/badge/-MongoDB-blue?style=for-the-badge" alt="MongoDB" /></a>
 </p>
--Used MongoDB database application for exercise and workout plans 
+- Used MongoDB database for exercise and workout plans application
 
 
 ## Questions
