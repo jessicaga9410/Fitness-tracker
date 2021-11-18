@@ -28,6 +28,8 @@
 -
 ![Screenshot (97)](https://user-images.githubusercontent.com/87554644/142095540-450f14ab-43f3-4913-a67c-2f70ec8435a3.png)
 
+
+[Link to the deployment.](https://quiet-plateau-40444.herokuapp.com/?id=6195aded30b5920016d2c2ed)
 ### License
 -------
 ![badge](https://img.shields.io/badge/license-MIT-ff69b4)
@@ -35,7 +37,7 @@
 This application is covered by the MIT license. 
 
 ----------------------------------------------------------------
-</br>
+
 <p align="left">
    <a href="https://www.mongodb.com/"><img src="https://img.shields.io/badge/-MongoDB-blue?style=for-the-badge" alt="MongoDB" /></a>
 </p>
