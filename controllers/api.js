@@ -10,9 +10,19 @@ Workout.create({}).then(response=>{
 
 });
 
-router.put('/api/workouts', ({body, params} , res) =>{
-    res.sendFile(path.join(__dirname, '../public/api/workouts/:id'));
-    
+router.put('/api/workouts/:id', ({body, params} , res) =>{
+  console.log(body);
+  Workout.findByIdAndUpdate(
+    params.id,
+    { $push: { exercises: body } },
+    { new: true, runValidators: true }
+  )
+    .then((dbWorkout) => {
+      res.json(dbWorkout);
+    })
+    .catch((err) => {
+      res.json(err);
+    });
 });
 
 
