@@ -29,7 +29,7 @@
 ![Screenshot (97)](https://user-images.githubusercontent.com/87554644/142095540-450f14ab-43f3-4913-a67c-2f70ec8435a3.png)
 
 
-[Link to the deployment.](https://quiet-plateau-40444.herokuapp.com/?id=6195aded30b5920016d2c2ed)
+[Link to the deployment.]()
 ### License
 -------
 ![badge](https://img.shields.io/badge/license-MIT-ff69b4)
